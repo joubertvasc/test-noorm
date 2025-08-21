@@ -1,8 +1,9 @@
-import { createConnection } from "jv-noorm";
+import { createNoORMConnection } from "jv-noorm";
 
 (async () => {
+
   // Create the connection based on .env informations
-  const db = createConnection();
+  const db = createNoORMConnection();
 
   try {
     try {

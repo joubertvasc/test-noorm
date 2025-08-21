@@ -14,9 +14,10 @@
   "description": "",
   "dependencies": {
     "dotenv": "^17.2.1",
-    "jv-noorm": "^0.0.14",
+    "jv-noorm": "^0.0.19",
     "tsc": "^2.0.4",
-    "tsx": "^4.20.4"
+    "tsx": "^4.20.4",
+    "url": "^0.11.4"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
